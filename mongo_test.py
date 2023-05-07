@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 #Setting up the connection
 # username = "admin"
 # password = admin
-uri = "mongodb+srv://admin:admin@cluster0.ihzdk52.mongodb.net/?retryWrites=true&w=majority"
+uri = ""
 try:
     mongo_client = motor.motor_asyncio.AsyncIOMotorClient(uri,tlsCAFile=certifi.where())
     print("Connected successfully!!!")
